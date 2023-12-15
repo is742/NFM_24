@@ -1,0 +1,33 @@
+{
+    "reconfigurations": 3,
+    "probabilities": {
+        "normalOperation": {
+            "EnvironmentalChangeDetected": 0.4,
+            "MissionCompletion": 0.6
+        },
+        "reconfigSuccess": 0.8,
+        "reconfigFailure": 0.2
+    },
+    "rewards": {
+        "cost": {
+            "reconfig": [5, 7, 4],
+            "backupOperation": 5,
+            "normalOperation": 5
+        },
+        "delay": {
+            "reconfig": [2, 4, 3],
+            "backupOperation": 5,
+            "normalOperation": 2
+        },
+        "assuranceConfidenceLevel": {
+            "reconfig": [2, 1, 1],
+            "backupOperation": 2,
+            "normalOperation": 3
+        }
+    },
+    "targets": {
+        "cost": 2,
+        "delay": 3,
+        "assuranceConfidenceLevel": 2
+    }
+}
