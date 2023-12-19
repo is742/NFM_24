@@ -14,7 +14,7 @@ The following graphs depict changes on the output values of the multi-objective 
 
 The first graph shows the total expected time for *p_reconfiguration* and *p_success* ranging between [0,1] with step 0.1.
 
-* $\text{multi}(R\{\text{``time"}\}\text{ min=? [ C ], } R\{\text{``energy"}\} \leq 200\text{ [ C ], } R\{\text{``confLvl"}\} \geq 3\text{ [ C ]})$
+$$\text{multi}(R\{\text{``time"}\}\text{ min=? [ C ], } R\{\text{``energy"}\} \leq 200\text{ [ C ], } R\{\text{``confLvl"}\} \geq 3\text{ [ C ]})$$
 
 ![](graphs/time.png)
 
@@ -24,7 +24,7 @@ As the probability of reconfiguration increases, the total expected time decreas
 
 The second graph depicts the total expected energy consumption for *p_reconfiguration* and *p_success* ranging between [0,1] with step 0.1.
 
-* $\text{multi}(R\{\text{``energy"}\}\text{min=? [ C ], } R\{\text{``time"}\} \leq 30\text{ [ C ], } R\{\text{``confLvl"}\} \geq 3\text{ [ C ]})$
+$$\text{multi}(R\{\text{``energy"}\}\text{min=? [ C ], } R\{\text{``time"}\} \leq 30\text{ [ C ], } R\{\text{``confLvl"}\} \geq 3\text{ [ C ]})$$
 
 ![](graphs/energy.png)
 
