@@ -1,6 +1,4 @@
-# NFM 2024 Case Study
-
-Model and Properties for the Submitted NFM 2024 Paper
+# Case Study
 
 File [UAV_model.prism](UAV_model.prism) contains the sythnesized Markov Decision Process (MDP) model used for the verification and selection of appropriate reconfiguration options with the aim of satisfying the mission requirements.
 
